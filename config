@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[gui]
+	wmstate = normal
+	geometry = 1109x563+109+114 216 255
+[remote "moiazbezga"]
+	url = C:\\Users\\Андрей\\Desktop\\НАТАША\\assets
+	fetch = +refs/heads/*:refs/remotes/moiazbezga/*
+[branch "master"]
+	remote = moiazbezga
+	merge = refs/heads/moiazbezga/master

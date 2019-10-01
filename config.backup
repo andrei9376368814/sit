@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[gui]
+	wmstate = normal
+	geometry = 1109x563+109+114 216 255
+[remote "moiazbezga"]
+	url = https://github.com/andrei9376368814/moiazbezga
+	fetch = +refs/heads/*:refs/remotes/moiazbezga/*
+[branch "master"]
+	remote = moiazbezga
+	merge = refs/heads/moiazbezga/master
